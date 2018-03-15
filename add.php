@@ -1,5 +1,5 @@
 <?php
-	function add(a, b){
+	function add($a, $b){
 		$total=$a +$b;
 		return total;
 	}
