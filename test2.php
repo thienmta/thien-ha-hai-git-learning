@@ -1,23 +1,24 @@
 <?php
-		include "add.php";
-		include "sub.php";
-	class math{
-		
-		
-		function multi($a,$b){
+
+	include ("add.php");
+	include ("sub.php");
+	class Math
+	{
+		function multi($a, $b){
+
 			$multi =  $a * $b;
 			return $multi;
 		}
-	
 	}
+    
 	$a=2;
 	$b=5;
-	$math= new math;
-	$multil=$math->multi($a,$b);
-	echo $multil;
-	
-	echo $add($a,$b);
 
-	echo $sub($a,$b);
+	$math = new Math;
+	echo $math->multi($a, $b);
+	echo add($a, $b);
+	echo Sub($a, $b);
+	
+
 	
 ?>
