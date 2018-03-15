@@ -14,9 +14,9 @@ class Math {
 	echo $c;
     }
 
-    public function multi()
+    public function multi($a, $b)
     {
-
+        return ($a * $b);
     }
 
     public function divide()
