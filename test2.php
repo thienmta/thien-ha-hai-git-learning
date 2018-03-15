@@ -1,10 +1,21 @@
 <?php
-	class math{
-		function multi($a,$b){
+
+	include ("add.php");
+	include ("sub.php");
+	class Math
+	{
+		function multi($a, $b){
 			$multi =  $a * $b;
-			echo $multi;
+			return $multi;
 		}
 	}
-	$math = new math();
-	$math -> multi(1,2);
+    
+	$a=2;
+	$b=5;
+	$math = new Math;
+	echo $math->multi($a, $b);
+	echo add($a, $b);
+	echo Sub($a, $b);
+	
+	
 ?>
