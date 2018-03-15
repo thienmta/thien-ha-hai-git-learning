@@ -6,12 +6,9 @@ class Math {
 
     }
 
-    public function sub($a,$b)
+    public function sub($a, $b)
     {
-	$a=10;
-	$b=20;
-	$c=$a-$b;
-	echo $c;
+	return ($a-$b);
     }
 
     public function multi($a, $b)
