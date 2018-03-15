@@ -1,5 +1,5 @@
 <?php 
-	function Sub($a, $b){
+	public function Sub($a, $b){
 		return ($a-$b);
 	}
 ?>
